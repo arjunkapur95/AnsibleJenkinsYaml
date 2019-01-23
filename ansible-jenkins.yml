@@ -88,9 +88,8 @@
   - name: Install Jenkins 
     hosts: jenkins
     tags: jenkins
-    tasks:
-      - name: wait
-        wait_for: timeout=300
+    #tasks:
+     # - name: wait
   #      service:
   #        name: firewalld
   #        enabled: no
